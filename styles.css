@@ -1,0 +1,52 @@
+html, body {
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.calculator {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    padding: 25px;
+    background-color: gray;
+}
+
+.display {
+    display: flex;
+    background-color: black;
+    color: white;
+    font-size: 40px;
+    font-style: bold;
+    text-align: right;
+    justify-content: flex-end;
+}
+
+.row1, .row2, .row3, .row4, .row5 {
+    display: flex;
+    gap: 25px;
+    justify-content: space-between;
+}
+
+.clear {
+    height: 50px;
+    width: 125px;
+    background-color: lightcoral;
+    color: white;
+}
+
+.delete {
+    height: 50px;
+    width: 125px;
+    background-color: lightblue;
+    color: white;
+}
+
+button {
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    background-color: antiquewhite;
+    color: black;
+}
